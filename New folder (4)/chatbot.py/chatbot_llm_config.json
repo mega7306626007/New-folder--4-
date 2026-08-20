@@ -1,0 +1,11 @@
+{
+  "_instructions": "Set 'provider' to either 'anthropic' or 'openai' to choose which one is active. Each provider has its OWN key field - 'anthropic_api_key' and 'openai_api_key' - so you can fill in BOTH ahead of time and then switch between them from inside the chat itself (typing 'change to gpt' or 'change to claude') with no re-editing of this file needed each time. Anthropic keys start with 'sk-ant-' (get one at https://console.anthropic.com/settings/keys); OpenAI keys start with 'sk-' (get one at https://platform.openai.com/api-keys). Both are PAID APIs - check current pricing before enabling. Set 'enabled' to true once at least one key is filled in. Never share this file or your keys with anyone, and never commit it to source control.",
+  "enabled": false,
+  "provider": "anthropic",
+  "anthropic_api_key": "",
+  "openai_api_key": "",
+  "model": "claude-sonnet-5",
+  "openai_model": "gpt-5.5",
+  "max_tokens": 300,
+  "timeout_seconds": 12
+}
